@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database.cs" />
-    <Compile Include="FoodItem.cs" />
+    <Compile Include="Entities\FoodItem.cs" />
     <Compile Include="Forms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,12 +142,12 @@
     <Compile Include="Gui\MenuGUI.cs" />
     <Compile Include="Gui\MenuRenderer.cs" />
     <Compile Include="Gui\OrderItemsGUI.cs" />
-    <Compile Include="Order.cs" />
+    <Compile Include="Entities\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Gui\RestorantGUI.cs" />
-    <Compile Include="Restorant.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Entities\Restorant.cs" />
+    <Compile Include="Entities\User.cs" />
     <EmbeddedResource Include="Forms\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
